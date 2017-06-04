@@ -12,6 +12,8 @@ import Emb           from 'express-markdown-browser';
 import routesInit    from './lib/routes';
 import { appPort }   from './etc/config.json';
 
+import './lib/registerValidationRules';
+
 const routes = routesInit();
 const app    = express();
 const router = express.Router();
