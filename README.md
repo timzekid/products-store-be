@@ -1,10 +1,19 @@
+# Products Store
+
+This is the back-end part of the project. Front-end part and description is [here](https://github.com/yaDaryStil/products-store-ui)
+
+
 Run development version
-1. npm install
-2. cp etc/config.json.sample etc/config.json.
-3. npm run nodemon
-4. open http://localhost:8080/apidoc in browser
+```
+npm install
+cp etc/config.json.sample etc/config.json.
+npm run nodemon
+open http://localhost:8080/apidoc in browser
+```
 
 Run production version
-1. npm install
-2. cp etc/config.json.sample etc/config.json.
-3. nmp start
+```
+npm install
+cp etc/config.json.sample etc/config.json.
+nmp start
+```
