@@ -7,6 +7,7 @@ Run development version
 ```
 npm install
 cp etc/config.json.sample etc/config.json
+mongod
 npm run nodemon
 ```
 
@@ -14,6 +15,7 @@ Run production version
 ```
 npm install
 cp etc/config.json.sample etc/config.json
+mongod
 nmp start
 ```
 
