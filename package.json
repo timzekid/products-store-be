@@ -8,6 +8,7 @@
     "stop": "pm2 delete products-store-backend -s &> /dev/null"
   },
   "dependencies": {
+    "babel-runtime": "^6.23.0",
     "bluebird": "^3.5.0",
     "body-parser": "^1.15.2",
     "bunyan-singletone-facade": "github:WebbyLab/bunyan-singletone-facade",
