@@ -1,0 +1,9 @@
+version: "2.0"
+
+services:
+  server:
+    image: yadarustil/products
+    ports: ["8080:8080"]
+    links: ["mongo"]
+  mongo:
+      image: mongo
